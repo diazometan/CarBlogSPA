@@ -1,0 +1,17 @@
+.menu {
+    align-self: center;
+    padding: 0;
+    color: #FFFFFF;
+    display: flex;
+    width: 368px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu__item {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}

@@ -1,0 +1,27 @@
+.instagram {
+    margin-bottom: 60px;
+}
+
+.instragram__title {
+    margin: 30px 0px 25px 0px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #171717;
+}
+
+.instagram__images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.instagram__image {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.instagram__image:nth-child(odd) {
+    margin-right: 10px;
+}

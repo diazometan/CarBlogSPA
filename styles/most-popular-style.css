@@ -1,0 +1,55 @@
+.most-popular {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.most-popular__posts {
+    display: flex;
+}
+
+
+.most-popular-posts__item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-right: 35px;
+    width: 266px;
+}
+
+.most-popular-posts__item:last-child {
+    margin-right: 0px;
+}
+
+.most-popular-posts__image {
+    width: 100%;
+}
+
+.most-popular__title {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;   
+    color: #171717;
+}
+
+.most-popular-posts__title {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #171717;
+    text-decoration: none;
+    margin: 20px 0px 10px 0px;
+}
+
+.most-popular-posts__author {
+    font-family: PT Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+}

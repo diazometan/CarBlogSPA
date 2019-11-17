@@ -1,0 +1,88 @@
+.preview {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.preview__big-item {
+    margin-right: 30px;
+}
+
+.preview__small-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 770px;
+    justify-content: space-between;
+}
+
+.preview__item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: none;
+}
+
+.preview__item_size_small {
+    width: 370px;
+    height: 265px;
+}
+
+.preview__item_size_big {
+    width: 370px;
+    height: 560px;
+}
+
+.preview__discription {
+    width: 256px;
+    margin: 0px 0px 20px 23px;
+}
+
+.preview__author {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px;
+}
+
+.preview__title {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 6px 0px 0px 0px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.preview__item_background_mersedes {
+    background-image: url("../images/Mersedes-benz-yellow.png");
+}
+
+.preview__item_background_mersedes-2 {
+    background-image: url("../images/Mersedes-benz\(2\).png");
+}
+
+.preview__item_background-audi {
+    background-image: url("../images/Audi.png");
+}
+
+.preview__item_background-audiQ7 {
+    background-image: url("../images/AudiQ7.png");
+}
+
+.preview__item_background-citroyen {
+    background-image: url("../images/Old\ Citroyen.png");
+}
+
+.preview__item_size_small:nth-last-child(-n+2) {
+    margin-top: 28px;
+}

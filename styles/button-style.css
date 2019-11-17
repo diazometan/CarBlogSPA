@@ -1,0 +1,61 @@
+.button {
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #4A90E2;
+    border: none;
+}
+
+.button_theme_dark {
+    background-color: #000000;
+}
+
+.button_theme_light {
+    background-color:#EBEBEB;
+}
+
+.button_theme_grey {
+    background: #232323;
+}
+
+.button_text-color_common {
+    color: #ffffff;
+}
+
+.button_size_big {
+    width: 270px;
+    height: 50px;
+}
+
+.button_border_radius {
+    border-radius: 3px;
+}
+
+.tag__button {
+    padding: 7px 16px;
+    margin: 0px 7px 10px 0px;
+}
+
+.button__list-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #171717;
+}
+
+.list-count__button:nth-child(2) {
+    background-color: #000000;
+    color: #ffffff;
+}

@@ -47,7 +47,6 @@
 }
 
 .popular-posts__title {
-    font-family: "PT Sans";
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -69,7 +68,6 @@
 }
 
 .popular-posts__title {
-    font-family: "PT Sans";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -80,7 +78,6 @@
 }
 
 .popular-posts__author {
-    font-family: "PT Sans";
     font-style: italic;
     font-weight: normal;
     font-size: 14px;

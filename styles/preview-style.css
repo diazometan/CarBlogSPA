@@ -44,7 +44,6 @@
 }
 
 .preview__author {
-    font-family: "PT Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -53,7 +52,6 @@
 }
 
 .preview__title {
-    font-family: "PT Sans";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
